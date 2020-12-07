@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Gamja Flower', cursive;
+  font-size: 180%;
+  color: #40514E;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin-top: 50px auto 0 auto;
+  font-family: 'Kaushan Script', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Rock Salt', cursive;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Neucha', cursive;
+  color: #11999E;
+  font-weight: normal;
+}
+
+hr {
+  color: #c0c0c0;
+  border-style: dotted none none none;
+  border-width: 10px;
+  width: 6%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Neucha', cursive;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+/******************class************/
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.outro {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+  line-height: 2em;
+}
+
+.future {
+  text-decoration: underline;
+}
+
+.me {
+  margin-top: 50px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 40px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.busy {
+  width: 35%;
+  float: right;
+  margin-left: 30px
+}
+
+.teach {
+  width: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 1.5rem;
+}
+
+.btn {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  background: #66BFBF;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 0;
+  line-height: 0;
+  color: #EAF6F6;
+  font-family: 'Neucha', cursive;
+  width: 235px;
+  font-size: 40px;
+  font-weight: 200;
+  padding: 27px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
